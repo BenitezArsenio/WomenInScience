@@ -3,11 +3,23 @@
   <head>
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <meta charset="utf-8">
+     <link rel="stylesheet" type="text/css" href="style.css">
     <title></title>
   </head>
   <body>
-    <svg></svg>
+    <h1 id="heading">% of Women Recieving a Bachelor's in STEM Fields By Region</h1>
+
+    <svg id = "map"></svg>
+    <div>
+    <svg id = "barChart" ></svg>
+  </div>
+  <div id='nav'><pre>Choose a Year: <button id = '2005'>2005</button><button id = '2010'>2010</button><button id = '2015'>2015</button></pre></div>
+  <div id='notes'> <pre>Total Men:</pre><pre id = 'totalM'></pre>
+                   <pre>Total Women:</pre><pre id = 'totalF'></pre>
+                   <pre>% Women: </pre><pre id = 'perW'></pre>
+  </div>
   <script src="script.js">
   </script>
+
   </body>
 </html>

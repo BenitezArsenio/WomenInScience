@@ -1,11 +1,1221 @@
-{
-  "schools":
-  [{
-    "name":"BU",
-    "completions":
-    [{
-      "CS":{"total":}
-      }]
-    },{"CAL"},{"UNC"},{"UW"}]
+[
+  {
+    "University": "Kansas University",
+    "Year": [2005,2010,2015],
+    "ABBR": "KS",
+    "data":[
+      {
+         "year":2005,
+        "completions_BY_field":[
 
+          {
+        "field": "CS",
+        "male": 34,
+        "female": 5,
+        "bothSexes": 39
+        },
+        {
+
+        "field": "Engineering",
+        "male": 128,
+        "female": 43,
+        "bothSexes": 171
+        },
+        {
+        "field": "Mathematics",
+        "male": 21,
+        "female": 13,
+        "bothSexes": 34
+        },
+        {
+          "field": "Physics",
+          "male": 8,
+          "female": 0,
+          "bothSexes": 8
+      }]
+      },
+      {
+        "year": 2010,
+        "completions_BY_field":
+      [{
+        "field": "CS",
+        "male": 22,
+        "female": 1,
+        "bothSexes": 23
+      },
+      {
+
+        "field": "Engineering",
+        "male": 175,
+        "female": 57,
+        "bothSexes": 232
+      },
+      {
+
+        "field": "Mathematics",
+        "male": 15,
+        "female": 7,
+        "bothSexes": 22
+      },
+      {
+
+        "field": "Physics",
+        "male": 6,
+        "female": 2,
+        "bothSexes": 8
+      }]},
+      {
+
+      "year": 2015,
+      "completions_BY_field":[
+    {
+      "field": "CS",
+      "male": 31,
+      "female": 6,
+      "bothSexes": 37
+  },
+  {
+    "field": "Engineering",
+    "male": 224,
+    "female": 46,
+    "bothSexes": 270
+  },
+  {
+    "field": "Mathematics",
+    "male": 29,
+    "female": 20,
+    "bothSexes": 49
+  },
+  {
+    "field": "Physics",
+    "male": 10,
+    "female": 3,
+    "bothSexes": 13
+  }]},
+  {
+    "field": "Total",
+    "male": 703,
+    "female": 203,
+    "bothSexes": 906
+  }]},
+
+  {
+    "University": "Indiana University",
+    "Year": [2005,2010,2015],
+    "ABBR":"IN",
+    "data":[
+    {
+      "year":"2005",
+      "completions_BY_field":
+      [
+        {
+          "field": "CS",
+          "male": 48,
+          "female": 7,
+          "bothSexes": 55
+        },
+        {
+          "field": "Engineering",
+          "male": 0,
+          "female": 0,
+          "bothSexes": 0
+        },
+        {
+          "field": "Mathematics",
+          "male": 28,
+          "female": 15,
+          "bothSexes": 43
+        },
+        {
+          "field": "Physics",
+          "male": 11,
+          "female": 0,
+          "bothSexes": 11
+        }]
+      },
+      {
+            "year":2010,
+            "completions_BY_field":[
+            {
+
+              "field": "CS",
+              "male": 28,
+              "female": 4,
+              "bothSexes": 32
+            },
+            {
+
+              "field": "Engineering",
+              "male": 0,
+              "female": 0,
+              "bothSexes": 0
+            },
+            {
+
+              "field": "Mathematics",
+              "male": 37,
+              "female": 21,
+              "bothSexes": 58
+            },
+            {
+
+              "field": "Physics",
+              "male": 20,
+              "female": 2,
+              "bothSexes": 22
+            }
+          ]},
+            {
+
+              "year":2015,
+              "completions_BY_field":[
+            {
+              "field": "CS",
+              "male": 84,
+              "female": 17,
+              "bothSexes": 101
+            },
+            {
+              "field": "Engineering",
+              "male": 0,
+              "female": 0,
+              "bothSexes": 0
+            },
+            {
+              "field": "Mathematics",
+              "male": 71,
+              "female": 50,
+              "bothSexes": 121
+            },
+            {
+
+              "field": "Physics",
+              "male": 21,
+              "female": 1,
+              "bothSexes": 22
+            }]},
+            {
+              "field": "Total",
+              "male": 348,
+              "female": 117,
+              "bothSexes": 465
+            }]},
+            {
+              "University": "Boston University",
+              "Year": [2005,2010,2015],
+              "ABBR":"MA",
+              "data":[
+              {
+                "year":"2005",
+                "completions_BY_field":
+                [
+                  {
+                    "field": "CS",
+                    "male": 69,
+                    "female": 9,
+                    "bothSexes": 78
+                  },
+                  {
+                    "field": "Engineering",
+                    "male": 176,
+                    "female": 24,
+                    "bothSexes": 200
+                  },
+                  {
+                    "field": "Mathematics",
+                    "male": 21,
+                    "female": 18,
+                    "bothSexes": 39
+                  },
+                  {
+                    "field": "Physics",
+                    "male": 11,
+                    "female": 1,
+                    "bothSexes": 12
+                  }]
+                },
+                {
+                      "year":2010,
+                      "completions_BY_field":[
+                      {
+
+                        "field": "CS",
+                        "male": 22,
+                        "female": 6,
+                        "bothSexes": 28
+                      },
+                      {
+
+                        "field": "Engineering",
+                        "male": 104,
+                        "female": 18,
+                        "bothSexes": 122
+                      },
+                      {
+
+                        "field": "Mathematics",
+                        "male": 24,
+                        "female": 20,
+                        "bothSexes": 44
+                      },
+                      {
+
+                        "field": "Physics",
+                        "male": 7,
+                        "female": 4,
+                        "bothSexes": 11
+                      }
+                    ]},
+                      {
+
+                        "year":2015,
+                        "completions_BY_field":[
+                      {
+                        "field": "CS",
+                        "male": 78,
+                        "female": 20,
+                        "bothSexes": 98
+                      },
+                      {
+                        "field": "Engineering",
+                        "male": 147,
+                        "female": 42,
+                        "bothSexes": 189
+                      },
+                      {
+                        "field": "Mathematics",
+                        "male": 27,
+                        "female": 24,
+                        "bothSexes": 51
+                      },
+                      {
+
+                        "field": "Physics",
+                        "male": 15,
+                        "female": 3,
+                        "bothSexes": 18
+                      }]},
+                      {
+                        "field": "Total",
+                        "male": 701,
+                        "female": 189,
+                        "bothSexes": 890
+                      }]
+            },
+            {
+              "University": "University of Nebraska",
+              "Year": [2005,2010,2015],
+              "ABBR":"NE",
+              "data":[
+              {
+                "year":"2005",
+                "completions_BY_field":
+                [
+                  {
+                    "field": "CS",
+                    "male": 1,
+                    "female": 0,
+                    "bothSexes": 1
+                  },
+                  {
+                    "field": "Engineering",
+                    "male": 108,
+                    "female": 18,
+                    "bothSexes": 126
+                  },
+                  {
+                    "field": "Mathematics",
+                    "male": 33,
+                    "female": 11,
+                    "bothSexes": 44
+                  },
+                  {
+                    "field": "Physics",
+                    "male": 5,
+                    "female": 2,
+                    "bothSexes": 7
+                  }]
+                },
+                {
+                      "year":2010,
+                      "completions_BY_field":[
+                      {
+
+                        "field": "CS",
+                        "male": 32,
+                        "female": 2,
+                        "bothSexes": 34
+                      },
+                      {
+
+                        "field": "Engineering",
+                        "male": 115,
+                        "female": 16,
+                        "bothSexes": 131
+                      },
+                      {
+
+                        "field": "Mathematics",
+                        "male": 24,
+                        "female": 13,
+                        "bothSexes": 37
+                      },
+                      {
+
+                        "field": "Physics",
+                        "male": 10,
+                        "female": 2,
+                        "bothSexes": 12
+                      }
+                    ]},
+                      {
+
+                        "year":2015,
+                        "completions_BY_field":[
+                      {
+                        "field": "CS",
+                        "male": 31,
+                        "female": 6,
+                        "bothSexes": 37
+                      },
+                      {
+                        "field": "Engineering",
+                        "male": 224,
+                        "female": 46,
+                        "bothSexes":270
+                      },
+                      {
+                        "field": "Mathematics",
+                        "male": 29,
+                        "female": 20,
+                        "bothSexes": 49
+                      },
+                      {
+
+                        "field": "Physics",
+                        "male": 10,
+                        "female": 3,
+                        "bothSexes": 22
+                      }]},
+                      {
+                        "field": "Total",
+                        "male": 622,
+                        "female": 139,
+                        "bothSexes": 761
+                      }]},
+
+            { "University": "University of Maryland",
+              "Year": [2005,2010,2015],
+              "ABBR":"MD",
+              "data":[
+              {
+                "year":"2005",
+                "completions_BY_field":
+                [
+                  {
+                    "field": "CS",
+                    "male": 204,
+                    "female": 37,
+                    "bothSexes": 241
+                  },
+                  {
+                    "field": "Engineering",
+                    "male": 408,
+                    "female": 79,
+                    "bothSexes": 487
+                  },
+                  {
+                    "field": "Mathematics",
+                    "male": 60,
+                    "female": 32,
+                    "bothSexes": 92
+                  },
+                  {
+                    "field": "Physics",
+                    "male": 31,
+                    "female": 3,
+                    "bothSexes": 34
+                  }]
+                },
+                {
+                      "year":2010,
+                      "completions_BY_field":[
+                      {
+
+                        "field": "CS",
+                        "male": 108,
+                        "female": 10,
+                        "bothSexes": 118
+                      },
+                      {
+
+                        "field": "Engineering",
+                        "male": 349,
+                        "female": 84,
+                        "bothSexes": 433
+                      },
+                      {
+
+                        "field": "Mathematics",
+                        "male": 66,
+                        "female": 35,
+                        "bothSexes": 101
+                      },
+                      {
+
+                        "field": "Physics",
+                        "male": 43,
+                        "female": 8,
+                        "bothSexes": 51
+                      }
+                    ]},
+                      {
+
+                        "year":2015,
+                        "completions_BY_field":[
+                      {
+                        "field": "CS",
+                        "male": 245,
+                        "female": 44,
+                        "bothSexes": 289
+                      },
+                      {
+                        "field": "Engineering",
+                        "male": 550,
+                        "female": 99,
+                        "bothSexes":649
+                      },
+                      {
+                        "field": "Mathematics",
+                        "male": 81,
+                        "female": 52,
+                        "bothSexes": 133
+                      },
+                      {
+
+                        "field": "Physics",
+                        "male": 57,
+                        "female": 9,
+                        "bothSexes": 66
+                      }]},
+                      {
+                        "field": "Total",
+                        "male": 2202,
+                        "female": 492,
+                        "bothSexes": 2694
+                      }]
+            },
+            {"University": "University of Connecticut",
+              "Year": [2005,2010,2015],
+              "ABBR":"CT",
+              "data":[
+              {
+                "year":"2005",
+                "completions_BY_field":
+                [
+                  {
+                    "field": "CS",
+                    "male": 30,
+                    "female": 4,
+                    "bothSexes": 34
+                  },
+                  {
+                    "field": "Engineering",
+                    "male": 158,
+                    "female": 14,
+                    "bothSexes": 172
+                  },
+                  {
+                    "field": "Mathematics",
+                    "male": 16,
+                    "female": 20,
+                    "bothSexes": 36
+                  },
+                  {
+                    "field": "Physics",
+                    "male": 9,
+                    "female": 1,
+                    "bothSexes": 10
+                  }]
+                },
+                {
+                      "year":2010,
+                      "completions_BY_field":[
+                      {
+
+                        "field": "CS",
+                        "male": 9,
+                        "female": 1,
+                        "bothSexes":10
+                      },
+                      {
+
+                        "field": "Engineering",
+                        "male": 185,
+                        "female": 36,
+                        "bothSexes": 221
+                      },
+                      {
+
+                        "field": "Mathematics",
+                        "male": 19,
+                        "female": 19,
+                        "bothSexes": 38
+                      },
+                      {
+
+                        "field": "Physics",
+                        "male": 9,
+                        "female": 3,
+                        "bothSexes": 12
+                      }
+                    ]},
+                      {
+
+                        "year":2015,
+                        "completions_BY_field":[
+                      {
+                        "field": "CS",
+                        "male": 27,
+                        "female": 2,
+                        "bothSexes": 29
+                      },
+                      {
+                        "field": "Engineering",
+                        "male": 256,
+                        "female": 59,
+                        "bothSexes":315
+                      },
+                      {
+                        "field": "Mathematics",
+                        "male": 37,
+                        "female": 25,
+                        "bothSexes": 62
+                      },
+                      {
+
+                        "field": "Physics",
+                        "male": 20,
+                        "female": 3,
+                        "bothSexes": 23
+                      }]},
+                      {
+                        "University": "Total",
+                        "male": 775,
+                        "female": 187,
+                        "bothSexes": 962
+                      }]
+            },
+            {
+            "University": "University of Georgia",
+            "Year": [2005,2010,2015],
+            "ABBR":"GA",
+            "data":[
+            {
+              "year":"2005",
+              "completions_BY_field":
+              [
+                {
+                  "field": "CS",
+                  "male": 50,
+                  "female": 3,
+                  "bothSexes": 53
+                },
+                {
+                  "field": "Engineering",
+                  "male": 0,
+                  "female": 0,
+                  "bothSexes": 0
+                },
+                {
+                  "field": "Mathematics",
+                  "male": 26,
+                  "female": 12,
+                  "bothSexes": 38
+                },
+                {
+                  "field": "Physics",
+                  "male": 7,
+                  "female": 1,
+                  "bothSexes": 8
+                }]
+              },
+              {
+                    "year":2010,
+                    "completions_BY_field":[
+                    {
+
+                      "field": "CS",
+                      "male": 32,
+                      "female": 6,
+                      "bothSexes": 38
+                    },
+                    {
+
+                      "field": "Engineering",
+                      "male": 0,
+                      "female": 0,
+                      "bothSexes": 0
+                    },
+                    {
+
+                      "field": "Mathematics",
+                      "male": 24,
+                      "female": 19,
+                      "bothSexes": 43
+                    },
+                    {
+
+                      "field": "Physics",
+                      "male": 1,
+                      "female": 2,
+                      "bothSexes": 3
+                    }]
+                  },
+                    {
+
+                      "year":2015,
+                      "completions_BY_field":[
+                    {
+                      "field": "CS",
+                      "male": 72,
+                      "female": 14,
+                      "bothSexes":86
+                    },
+                    {
+                      "field": "Engineering",
+                      "male": 21,
+                      "female": 6,
+                      "bothSexes":27
+                    },
+                    {
+                      "field": "Mathematics",
+                      "male": 39,
+                      "female": 28,
+                      "bothSexes": 67
+                    },
+                    {
+
+                      "field": "Physics",
+                      "male": 7,
+                      "female": 3,
+                      "bothSexes": 10
+                    }]},
+                    {
+                      "field": "Total",
+                      "male": 279,
+                      "female": 94,
+                      "bothSexes": 373
+                    }]
+          },
+          {
+          "University": "University of Arizona",
+          "Year": [2005,2010,2015],
+          "ABBR":"AZ",
+          "data":[
+          {
+            "year":"2005",
+            "completions_BY_field":
+            [
+              {
+                "field": "CS",
+                "male": 69,
+                "female": 17,
+                "bothSexes": 86
+              },
+              {
+                "field": "Engineering",
+                "male": 105,
+                "female": 30,
+                "bothSexes": 135
+              },
+              {
+                "field": "Mathematics",
+                "male": 36,
+                "female": 19,
+                "bothSexes": 55
+              },
+              {
+                "field": "Physics",
+                "male": 23,
+                "female": 16,
+                "bothSexes": 39
+              }]
+            },
+            {
+                  "year":2010,
+                  "completions_BY_field":[
+                  {
+
+                    "field": "CS",
+                    "male": 67,
+                    "female": 4,
+                    "bothSexes": 71
+                  },
+                  {
+
+                    "field": "Engineering",
+                    "male": 141,
+                    "female": 30,
+                    "bothSexes": 171
+                  },
+                  {
+
+                    "field": "Mathematics",
+                    "male": 62,
+                    "female": 30,
+                    "bothSexes": 92
+                  },
+                  {
+
+                    "field": "Physics",
+                    "male": 15,
+                    "female": 6,
+                    "bothSexes": 21
+                  }
+                ]},
+                  {
+
+                    "year":2015,
+                    "completions_BY_field":[
+                  {
+                    "field": "CS",
+                    "male": 124,
+                    "female": 17,
+                    "bothSexes": 141
+                  },
+                  {
+                    "field": "Engineering",
+                    "male": 211,
+                    "female": 46,
+                    "bothSexes":257
+                  },
+                  {
+                    "field": "Mathematics",
+                    "male": 88,
+                    "female": 22,
+                    "bothSexes": 110
+                  },
+                  {
+
+                    "field": "Physics",
+                    "male": 19,
+                    "female": 5,
+                    "bothSexes": 24
+                  }]},
+                  {
+                    "field": "Total",
+                    "male": 960,
+                    "female": 242,
+                    "bothSexes": 1202
+                  }]
+        },
+        {
+        "University": "University of Virginia",
+        "Year": [2005,2010,2015],
+        "ABBR":"VA",
+        "data":[
+        {
+          "year":"2005",
+          "completions_BY_field":
+          [
+            {
+              "field": "CS",
+              "male": 54,
+              "female": 6,
+              "bothSexes": 60
+            },
+            {
+              "field": "Engineering",
+              "male": 238,
+              "female": 69,
+              "bothSexes": 307
+            },
+            {
+              "field": "Mathematics",
+              "male": 28,
+              "female": 14,
+              "bothSexes": 42
+            },
+            {
+              "field": "Physics",
+              "male": 23,
+              "female": 5,
+              "bothSexes": 28
+            }]
+          },
+          {
+                "year":2010,
+                "completions_BY_field":[
+                {
+
+                  "field": "CS",
+                  "male": 39,
+                  "female": 7,
+                  "bothSexes": 46
+                },
+                {
+
+                  "field": "Engineering",
+                  "male": 226,
+                  "female": 84,
+                  "bothSexes": 310
+                },
+                {
+
+                  "field": "Mathematics",
+                  "male": 40,
+                  "female": 53,
+                  "bothSexes": 93
+                },
+                {
+
+                  "field": "Physics",
+                  "male": 0,
+                  "female": 0,
+                  "bothSexes": 0
+                }
+              ]},
+                {
+
+                  "year":2015,
+                  "completions_BY_field":[
+                {
+                  "field": "CS",
+                  "male": 98,
+                  "female": 26,
+                  "bothSexes": 124
+                },
+                {
+                  "field": "Engineering",
+                  "male": 242,
+                  "female": 85,
+                  "bothSexes":327
+                },
+                {
+                  "field": "Mathematics",
+                  "male": 73,
+                  "female": 37,
+                  "bothSexes": 110
+                },
+                {
+
+                  "field": "Physics",
+                  "male": 0,
+                  "female": 0,
+                  "bothSexes": 0
+                }]},
+                {
+                  "field": "Total",
+                  "male": 1061,
+                  "female": 386,
+                  "bothSexes": 1447
+                }]
+      },
+      {
+      "University": "University of Kentucky",
+      "Year": [2005,2010,2015],
+      "ABBR":"KY",
+      "data":[
+      {
+        "year":"2005",
+        "completions_BY_field":
+        [
+          {
+            "field": "CS",
+            "male": 53,
+            "female": 6,
+            "bothSexes": 59
+          },
+          {
+            "field": "Engineering",
+            "male": 89,
+            "female": 17,
+            "bothSexes": 106
+          },
+          {
+            "field": "Mathematics",
+            "male": 16,
+            "female": 5,
+            "bothSexes": 21
+          },
+          {
+            "field": "Physics",
+            "male": 3,
+            "female": 2,
+            "bothSexes": 5
+          }]
+        },
+        {
+              "year":2010,
+              "completions_BY_field":[
+              {
+
+                "field": "CS",
+                "male": 38,
+                "female": 1,
+                "bothSexes": 39
+              },
+              {
+
+                "field": "Engineering",
+                "male": 180,
+                "female": 38,
+                "bothSexes": 218
+              },
+              {
+
+                "field": "Mathematics",
+                "male": 11,
+                "female": 4,
+                "bothSexes": 15
+              },
+              {
+
+                "field": "Physics",
+                "male": 2,
+                "female": 0,
+                "bothSexes": 2
+              }
+            ]},
+              {
+
+                "year":2015,
+                "completions_BY_field":[
+              {
+                "field": "CS",
+                "male": 60,
+                "female": 9,
+                "bothSexes": 69
+              },
+              {
+                "field": "Engineering",
+                "male": 248,
+                "female": 44,
+                "bothSexes":292
+              },
+              {
+                "field": "Mathematics",
+                "male": 30,
+                "female": 15,
+                "bothSexes": 45
+              },
+              {
+
+                "field": "Physics",
+                "male": 9,
+                "female": 0,
+                "bothSexes": 9
+              }]},
+              {
+                "field": "Total",
+                "male": 739,
+                "female": 141,
+                "bothSexes": 1202
+              }]
+    },{
+    "University": "University of California-Davis",
+    "Year": [2005,2010,2015],
+    "ABBR":"CA",
+    "data":[
+    {
+      "year":"2005",
+      "completions_BY_field":
+      [
+        {
+          "field": "CS",
+          "male": 167,
+          "female": 30,
+          "bothSexes": 197
+        },
+        {
+          "field": "Engineering",
+          "male": 142,
+          "female": 25,
+          "bothSexes": 167
+        },
+        {
+          "field": "Mathematics",
+          "male": 33,
+          "female": 26,
+          "bothSexes": 59
+        },
+        {
+          "field": "Physics",
+          "male": 20,
+          "female": 5,
+          "bothSexes": 25
+        }]
+      },
+      {
+            "year":2010,
+            "completions_BY_field":[
+            {
+
+              "field": "CS",
+              "male": 42,
+              "female": 4,
+              "bothSexes": 46
+            },
+            {
+
+              "field": "Engineering",
+              "male": 256,
+              "female": 61,
+              "bothSexes": 317
+            },
+            {
+
+              "field": "Mathematics",
+              "male": 24,
+              "female": 16,
+              "bothSexes": 40
+            },
+            {
+
+              "field": "Physics",
+              "male": 14,
+              "female": 7,
+              "bothSexes": 21
+            }
+          ]},
+            {
+
+              "year":2015,
+              "completions_BY_field":[
+            {
+              "field": "CS",
+              "male": 139,
+              "female": 26,
+              "bothSexes": 165
+            },
+            {
+              "field": "Engineering",
+              "male": 346,
+              "female": 132,
+              "bothSexes":478
+            },
+            {
+              "field": "Mathematics",
+              "male": 34,
+              "female": 20,
+              "bothSexes": 54
+            },
+            {
+
+              "field": "Physics",
+              "male": 32,
+              "female": 6,
+              "bothSexes": 38
+            }]},
+            {
+              "field": "Total",
+              "male": 1249,
+              "female": 358,
+              "bothSexes": 1607
+            }]
+  },
+  {
+  "University": "University of Washington",
+  "Year": [2005,2010,2015],
+  "ABBR":"WA",
+  "data":[
+  {
+    "year":"2005",
+    "completions_BY_field":
+    [
+      {
+        "field": "CS",
+        "male": 77,
+        "female": 19,
+        "bothSexes": 96
+      },
+      {
+        "field": "Engineering",
+        "male": 360,
+        "female": 63,
+        "bothSexes": 423
+      },
+      {
+        "field": "Mathematics",
+        "male": 62,
+        "female": 24,
+        "bothSexes": 86
+      },
+      {
+        "field": "Physics",
+        "male": 63,
+        "female": 15,
+        "bothSexes": 78
+      }]
+    },
+    {
+          "year":2010,
+          "completions_BY_field":[
+          {
+
+            "field": "CS",
+            "male": 108,
+            "female": 28,
+            "bothSexes": 136
+          },
+          {
+
+            "field": "Engineering",
+            "male": 370,
+            "female": 72,
+            "bothSexes": 442
+          },
+          {
+
+            "field": "Mathematics",
+            "male": 69,
+            "female": 33,
+            "bothSexes": 102
+          },
+          {
+
+            "field": "Physics",
+            "male": 44,
+            "female": 19,
+            "bothSexes": 63
+          }
+        ]},
+          {
+
+            "year":2015,
+            "completions_BY_field":[
+          {
+            "field": "CS",
+            "male": 116,
+            "female": 54,
+            "bothSexes": 170
+          },
+          {
+            "field": "Engineering",
+            "male": 426,
+            "female": 61,
+            "bothSexes":487
+          },
+          {
+            "field": "Mathematics",
+            "male": 142,
+            "female": 78,
+            "bothSexes": 220
+          },
+          {
+
+            "field": "Physics",
+            "male": 83,
+            "female": 13,
+            "bothSexes": 96
+          }]},
+          {
+            "field": "Total",
+            "male": 1494,
+            "female": 479,
+            "bothSexes": 1973
+          }]
 }
+
+]
