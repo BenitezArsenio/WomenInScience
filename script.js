@@ -66,10 +66,11 @@ var drawMap = function(geoData,stateArray,data)
     var womenPh= 0;
     var totalMen = 0;
     var totalWomen = 0;
-    var year = 2005;
+    var year = 2005
     var getYear = function()
     {
     year = this.id;
+    console.log(year);
   }
   document.getElementById('2005').onclick = getYear;
   document.getElementById('2010').onclick = getYear;
@@ -180,7 +181,7 @@ if(region.includes(d.ABBR))
             if(mW.includes(d.properties.ABBR))
             {
               console.log(d.properties.ABBR)
-              mWMen(2015,mW)
+              mWMen(year,mW)
               drawBarChart(plotLand,menCS,womenCS,menEn,womenEn,menM,womenM,menPh,womenPh,xscale,yscale,margins,barChart,'r');
               plotLand.classed('hidden',false);
 
@@ -198,7 +199,7 @@ if(region.includes(d.ABBR))
             else if(nE.includes(d.properties.ABBR))
             {
               console.log(d.properties.ABBR)
-              mWMen(2015,nE)
+              mWMen(year,nE)
               drawBarChart(plotLand,menCS,womenCS,menEn,womenEn,menM,womenM,menPh,womenPh,xscale,yscale,margins,barChart,'r');
               plotLand.classed('hidden',false);
 
@@ -214,7 +215,7 @@ if(region.includes(d.ABBR))
             else if(west.includes(d.properties.ABBR))
             {
               console.log(d.properties.ABBR)
-              mWMen(2015,west)
+              mWMen(year,west)
               drawBarChart(plotLand,menCS,womenCS,menEn,womenEn,menM,womenM,menPh,womenPh,xscale,yscale,margins,barChart,'r');
               plotLand.classed('hidden',false);
 
@@ -230,7 +231,7 @@ if(region.includes(d.ABBR))
             else if(south.includes(d.properties.ABBR))
             {
               console.log(d.properties.ABBR)
-              mWMen(2015,south)
+              mWMen(year,south)
               drawBarChart(plotLand,menCS,womenCS,menEn,womenEn,menM,womenM,menPh,womenPh,xscale,yscale,margins,barChart,'r');
               plotLand.classed('hidden',false);
 
